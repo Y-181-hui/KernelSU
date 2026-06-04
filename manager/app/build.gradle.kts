@@ -120,6 +120,7 @@ android {
         targetSdk = androidTargetSdkVersion
         versionCode = managerVersionCode
         versionName = managerVersionName
+        applicationId = "me.weishu.kernelsv"
 
         buildConfigField("boolean", "IS_PR_BUILD", isPrBuild.toString())
 
